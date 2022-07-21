@@ -1,0 +1,12 @@
+.social{
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   margin-left: 2vh;
+   list-style: none;
+}
+.logos{
+    display: inline-block;
+    border-radius: 50%;
+}

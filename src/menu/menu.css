@@ -1,0 +1,15 @@
+ul.menuList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+ul.menuList a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+
+ul.menuList a:hover{
+    text-decoration: underline;
+}

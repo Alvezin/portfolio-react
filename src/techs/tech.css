@@ -1,0 +1,19 @@
+.tech-section{
+    width: 85%;
+    margin: auto;
+}
+
+.tech-lib-img{
+    width: 100px;
+}
+.techs{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.techs .tech-box{
+    width: 100px;
+}

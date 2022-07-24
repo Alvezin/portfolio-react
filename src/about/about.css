@@ -1,0 +1,9 @@
+.about{
+    width: 85%;
+    margin: auto;
+}
+.about p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+}

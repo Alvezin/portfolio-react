@@ -1,6 +1,6 @@
 .tech-section{
     width: 85%;
-    margin: auto;
+    margin: 100px auto 0;
 }
 
 .tech-lib-img{
@@ -8,7 +8,7 @@
 }
 .techs{
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,4 +16,15 @@
 }
 .techs .tech-box{
     width: 100px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.techs .tech-box:hover{
+    border-color: rgba(0, 0, 0, 0.705);
 }

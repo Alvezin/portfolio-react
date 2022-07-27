@@ -1,8 +1,9 @@
 import About from "../about/About";
 import Techs from "../techs/Techs";
+import "./main.css"
 function Main () {
     return (
-        <section>
+        <section className="main">
             <About />
             <Techs />
         </section>

@@ -1,9 +1,13 @@
 .about{
     width: 85%;
     margin: auto;
+    padding: 100px 0;
 }
 .about p{
     text-align: justify;
     text-indent: 30px;
     line-height: 30px;
+}
+h2{
+    font-size: 3rem;
 }

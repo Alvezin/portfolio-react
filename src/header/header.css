@@ -1,12 +1,12 @@
 .header{
+    border-radius: 8px;
     height: 100vh;
-    opacity: 5 0px;
     text-transform: uppercase;
     display: grid;
     grid-template-areas: 
     "menu menu"
     "links centro";
-    grid-template-columns: 100px calc(100vw - 100px);
+    grid-template-columns: 100px calc(100vw - 150px);
 }
 .externalLinks{
     grid-area: links;

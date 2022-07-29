@@ -24,6 +24,14 @@ const techList = [
         name: "Javascript",
         img__path: `${base__path}js.png`,
         description: "O Javascript é uma linguagem de programação utilizado principalmente para o desenvolvimento web, é utilizada para adicionar interação á página, além de tratamento de dados.",
+        libs: [
+            {
+                id: 1,
+                name: "Axios",
+                description: "Lib utilizada para realizar requisições web nas aplicações de forma mais prática ao desenvolvedor.",
+                img__path: `${base__path}axios.jpg`
+            }
+        ],
     },
     {
         id: 6,
@@ -36,6 +44,20 @@ const techList = [
         name: "Vue.Js",
         img__path: `${base__path}vue.png`,
         description: "Vue.js é um framework progressivo leve e performático. Pode usá-lo para projetos de médio e longo porte.",
+        libs: [
+            {
+                id: 1,
+                name: "Vue Router",
+                description: "Utilizada para criação de rotas da aplicação.",
+                img__path: `${base__path}vue-router.png`
+            },
+            {
+                id: 2,
+                name: "VueX",
+                description: "Gerenciamento de estado da aplicação. Armazenda dados a nível global, para que possam ser utilizados em vários componentes",
+                img__path: `${base__path}vuex.png`
+            },
+        ],
     },
 ]
 

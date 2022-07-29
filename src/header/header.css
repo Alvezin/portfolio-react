@@ -1,12 +1,12 @@
 .header{
-    border-radius: 8px;
     height: 100vh;
+    box-sizing: border-box;
     text-transform: uppercase;
     display: grid;
     grid-template-areas: 
     "menu menu"
     "links centro";
-    grid-template-columns: 100px calc(100vw - 150px);
+    grid-template-columns: 100px 1fr;
 }
 .externalLinks{
     grid-area: links;
@@ -27,4 +27,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px black;
 }

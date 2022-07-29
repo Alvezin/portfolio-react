@@ -2,7 +2,7 @@ import "./menu.css"
 function Menu () {
 
     return(
-        <nav className="menu">
+        <nav>
             <ul className="menuList">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#tech">Tecnologias</a></li>

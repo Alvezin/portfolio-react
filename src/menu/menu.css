@@ -1,10 +1,16 @@
+
 ul.menuList{
+    background-color: transparent;
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
+ul.menuList li{
+    background-color: transparent;
+}
 ul.menuList a{
+    background-color: transparent;
     text-decoration: none;
     color: whitesmoke;
     font-size: small;

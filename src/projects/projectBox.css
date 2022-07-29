@@ -1,0 +1,10 @@
+.project-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-section{
+    width: 85%;
+    margin: auto;
+}

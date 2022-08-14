@@ -10,7 +10,7 @@ function Techs () {
         setShowModal(true)
     }
     return (
-        <section className="tech-section">
+        <section className="tech-section" id="tech">
             <h2>Tecnologias</h2>
             <small>Clique na tech dejesada para saber mais</small>
             <div className="techs">

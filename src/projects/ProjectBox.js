@@ -3,7 +3,7 @@ import projectList from "../data/projectList";
 import ProjectCard from "../projectcard/ProjectCard";
 function ProjectBox () {
     return(
-        <section className="project-section">
+        <section className="project-section" id="project">
             <h2>Projetos</h2>
             <div className="project-div">
                 {

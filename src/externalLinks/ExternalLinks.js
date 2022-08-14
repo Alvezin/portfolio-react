@@ -1,4 +1,4 @@
-import { LogoFacebook, LogoInstagram, LogoGithub, LogoLinkedin } from "react-ionicons";
+import { LogoFacebook, LogoInstagram, LogoGithub, LogoLinkedin, LogoWhatsapp } from "react-ionicons";
 import "./externalLinks.css"
 function ExternalLinks(){
     const logoWidth = "20px";
@@ -36,6 +36,15 @@ function ExternalLinks(){
                 <li>
                     <a className="logos" target="_blank" href="https://www.instagram.com/_alvezin/">
                         <LogoInstagram
+                            color={ initialColor }
+                            height={ logoWidth }
+                            width={ logoWidth }
+                        />
+                    </a>
+                </li>
+                <li>
+                    <a className="logos" target="_blank" href="https://api.whatsapp.com/send?1=pt_BR&phone=5515996836966&text=Olá, podemos conversar?">
+                        <LogoWhatsapp
                             color={ initialColor }
                             height={ logoWidth }
                             width={ logoWidth }

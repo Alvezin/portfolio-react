@@ -2,7 +2,7 @@ import "./about.css"
 
 function About () {
     return (
-        <section className="about">
+        <section className="about" id="sobre">
             <h2>Sobre</h2>
             <p>
                 Sempre fui curioso quando o assunto se tratava de tecnologia. Minha vontade 

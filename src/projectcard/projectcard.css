@@ -26,6 +26,9 @@
     transition: .5s;
     border-radius: 10px;
 }
+.hover-box .img{
+    width: 30px;
+}
 .project-card:hover > .hover-box{
     top: 0;
 }

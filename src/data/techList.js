@@ -1,4 +1,4 @@
-import {LogoVue, LogoJavascript, LogoSass, LogoNodejs, LogoHtml5, LogoCss3} from 'react-ionicons'
+import {LogoVue, LogoJavascript, LogoSass, LogoNodejs, LogoHtml5, LogoCss3, LogoGitlab} from 'react-ionicons'
 const base__path = `${window.location.origin}/image/`
 
 const size = '100px'
@@ -85,6 +85,12 @@ const techList = [
                 img__path: `${base__path}vuex.png`
             },
         ],
+    },
+    {
+        id: 5,
+        name: "GIT",
+        img__path: `${base__path}git.png`,
+        description: "Utilizado para controle de versão de projetos.",
     },
 ]
 

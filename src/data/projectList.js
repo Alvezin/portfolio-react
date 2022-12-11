@@ -68,54 +68,6 @@ export const projectList = [
         project__url: "https://cine-house-project.vercel.app/",
         repo__url: "https://github.com/Alvezin/cine-house-project",
     },
-    {
-        id: 4,
-        name: "Formulário de Contato",
-        img__path: `${base__path}form.png`,
-        tech__list: [
-            <LogoHtml5
-                width={size}
-                height={size}
-                color={color}
-            />,
-            <LogoCss3
-                width={size}
-                height={size}
-                color={color}
-            />,
-            <LogoJavascript
-                width={size}
-                height={size}
-                color={color}
-            />,
-        ],
-        project__url: "https://alvezin.github.io/formulario-contato/",
-        repo__url: "https://github.com/Alvezin/formulario-contato",
-    },
-    {
-        id: 5,
-        name: "Countdown",
-        img__path: `${base__path}rocket.png`,
-        tech__list: [
-            <LogoHtml5
-                width={size}
-                height={size}
-                color={color}
-            />,
-            <LogoCss3
-                width={size}
-                height={size}
-                color={color}
-            />,
-            <LogoJavascript
-                width={size}
-                height={size}
-                color={color}
-            />,
-        ],
-        project__url: "https://alvezin.github.io/countdown-page/",
-        repo__url: "https://github.com/Alvezin/countdown-page",
-    },
 ]
 export const backEndProjectList = [
     {
@@ -133,5 +85,21 @@ export const backEndProjectList = [
         aditional__path: [
             `${base__path}typescript.png`
         ]
+    },
+    {
+        id: 2,
+        name: 'Operator.JS',
+        img__path: `${base__path}pc-livro.jpg`,
+        tech__list: [
+            <LogoNodejs
+                width={size}
+                height={size}
+                color={'green'}
+            />
+        ],
+        repo__url: 'https://github.com/Alvezin/operator',
+        aditional__path: [
+            `${base__path}typescript.png`
+        ],
     }
 ]

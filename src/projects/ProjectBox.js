@@ -13,7 +13,6 @@ function ProjectBox () {
                     )
                 }
             </div>
-            <h3 style={{textIndent: '30px'}}>Back-End</h3>
             <div className="project-div">
                 {
                     backEndProjectList.map((el, index) => (

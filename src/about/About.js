@@ -19,8 +19,9 @@ function About () {
                 dev Full-Stack.
             </p>
             <p>
-                No momento estou procurando uma primeira oportunidade na área, mas possuo experiência através de projetos que 
-                criei durante meu aprendizado até aqui.
+                No momento atuo como desenvolvedor Frontend JR em uma startup, utilizando do Vue.js para criar
+                novas funcionalidades para os projetos da empresa, além de criar telas através do Figma. Utilizamos
+                muito o GIT e GITFLOW, além de estarmos estudando Cypress para aprimorarmos a arquitetura e componentização do no front do projeto.
             </p>
         </section>
     )

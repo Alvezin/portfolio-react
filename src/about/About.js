@@ -3,25 +3,17 @@ import "./about.css"
 function About () {
     return (
         <section className="about" id="sobre">
-            <h2>Sobre</h2>
+            <h2>About me</h2>
             <p>
-                Sempre fui curioso quando o assunto se tratava de tecnologia. Minha vontade 
-                por fazer parte de <abbr title="Tecnologia da Informação">TI</abbr> e desenvolvimento surgiu quando eu me questionei pela primeira vez:
-                <strong>"O que tem por trás de um game? Como é todo esse processo?"</strong>. Após descobrir que os códigos
-                são um dos pilares de uma arte como os games, eu disse a mim mesmo que iria trabalhar na área de dev um dia.
-            </p>
-
-            <p>
-                Em 2017 tive meu primeiro contato com programação, quando fiz um curso de C#, mas não continuei. Só em 2020
-                voltei a área, ao conseguir uma vaga em Engenharia de Software na <abbr title="Pontíficia Universidade Católica do Paraná">PUC-PR</abbr>, onde 
-                tive breve contato com Python, Java, mas após 6 meses tive que trancar a faculdade.
-                Nesse ano de 2022 voltei a estudar. Após bastante pesquisa, decidi iniciar pelo Front-End, mas minha meta é me tornar um
-                dev Full-Stack.
+                Hello visitor, I am a Jr. Software engineer at Tide@l. Responsible for creating, design and maintaining the visual part of the projects, I try
+                to ever do my best in addition to sharing new ideas with the team.  
             </p>
             <p>
-                No momento atuo como desenvolvedor Frontend JR em uma startup, utilizando do Vue.js para criar
-                novas funcionalidades para os projetos da empresa, além de criar telas através do Figma. Utilizamos
-                muito o GIT e GITFLOW, além de estarmos estudando Cypress para aprimorarmos a arquitetura e componentização do no front do projeto.
+                We are currently working on componentizing the project and maintaining a pattern when it comes to the macro, it's a hard work, but it's worth both for the project and for our development.
+                my main stack is Vue.js, Sass, Cypress for testing, but I can work with another tools, like typescript, Bootstrap. I am aware of git and gitflow too.
+            </p>
+            <p>
+                I can learn new technologies and adapt quickly, I can find answers to problems on my own and always try to deliver the best code.
             </p>
         </section>
     )

@@ -26,7 +26,7 @@ const techList = [
         description: "CSS (Cascading Style Sheets) é a tecnologia que aplica a estilização a página criada em HTML.",
     },
     {
-        id: 5,
+        id: 3,
         name: "Sass",
         icon__path: <LogoSass
             width={size}
@@ -37,7 +37,7 @@ const techList = [
         description: "Sass (Syntactically Awesome Style Sheets) é um pré-processador de CSS. Com ele a folha de estilos é mais poderosa, podendo adicionar lógica, além de deixar o código mais organizado.",
     },
     {
-        id: 3,
+        id: 4,
         name: "Javascript",
         img__path: `${base__path}js.png`,
         icon__path: <LogoJavascript
@@ -56,13 +56,13 @@ const techList = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         name: "Typescript",
         img__path: `${base__path}typescript.png`,
         description: "O Typescript adiciona tipagem ao javascript, auxiliando e muito o processo de desenvolvimento.",
     },
     {
-        id: 4,
+        id: 6,
         name: "Vue.Js",
         img__path: `${base__path}vue.png`,
         icon__path: <LogoVue
@@ -87,10 +87,16 @@ const techList = [
         ],
     },
     {
-        id: 5,
+        id: 7,
         name: "GIT",
         img__path: `${base__path}git.png`,
         description: "Utilizado para controle de versão de projetos.",
+    },
+    {
+        id: 8,
+        name: 'Cypress',
+        img__path: `${base__path}cypress.bmp`,
+        description: 'software for e2e and integration testing'
     },
 ]
 

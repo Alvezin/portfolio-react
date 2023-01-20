@@ -72,7 +72,7 @@ export const projectList = [
 export const backEndProjectList = [
     {
         id: 1,
-        name: 'Número por extenso',
+        name: 'Numbers in full',
         img__path: `${base__path}pc-livro.jpg`,
         tech__list: [
             <LogoNodejs

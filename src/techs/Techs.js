@@ -11,25 +11,16 @@ function Techs () {
     }
     return (
         <section className="tech-section" id="tech">
-            <h2>Tecnologias</h2>
-            <small>Clique na tech dejesada para saber mais</small>
+            <h2>Techs</h2>
             <div className="techs">
                 {
                     techList.map(tech =>
-                        <div className="tech-box" key={tech.id} onClick={()=>selectTech(tech)}>
+                        <div className="tech-box" key={tech.id}>
                             <img alt={ tech.name } src={tech.img__path} className="tech-lib-img"/>    
                         </div>
                     )
                 }
             </div>
-            {showModal &&
-                <aside>
-                    <Modal 
-                        selectedTech={selectedTech}
-                        showModal={setShowModal}
-                    />
-                </aside>
-            }
         </section>
     )
 }

@@ -12,8 +12,8 @@ function ProjectCard ({project}) {
                     }
                 </div>
                 <h3>{ project.name }</h3>
-                <a target="_blank" href={project.repo__url}><small>Repositório (recomendado)</small></a>
-                <a target="_blank" href={project.project__url}><small>Ir ao site</small></a>
+                <a target="_blank" href={project.repo__url}><small>Repository (recommended)</small></a>
+                <a target="_blank" href={project.project__url}><small>Go to site</small></a>
             </div>
         </div>
     )

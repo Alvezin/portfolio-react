@@ -4,8 +4,7 @@ import ProjectCard from "../projectcard/ProjectCard";
 function ProjectBox () {
     return(
         <section className="project-section" id="project">
-            <h2>Projetos</h2>
-            <h3 style={{textIndent: '30px'}}>Front-End</h3>
+            <h2>Projects</h2>
             <div className="project-div">
                 {
                     projectList.map((project) => 
@@ -32,7 +31,7 @@ function ProjectBox () {
                                     }
                                 </div>
                                 <h3>{ el.name }</h3>
-                                <a target="_blank" href={el.repo__url}><small>Repositório</small></a>
+                                <a target="_blank" href={el.repo__url}><small>Repository</small></a>
                             </div>
                         </div>
                     ))
